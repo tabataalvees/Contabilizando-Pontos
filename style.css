@@ -1,0 +1,94 @@
+
+* {
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 800px;
+    background-image: url('https://www.hojeemdia.com.br/polopoly_fs/1.703675!/image/image.jpeg_gen/derivatives/landscape_653/image.jpeg');
+    background-color: rgb(56, 57, 53);
+    background-size: 150vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+h1 {
+    color: white;
+}
+
+th, tr, td {
+    border: solid 1px white;
+    color: white;
+}
+#adicionarJogador{
+  color: white;
+  background-color: rgb(23,50,117);
+  border: 10px solid rgb(23,50,117);;
+  border-radius: 20px;
+  margin: 0 0 1rem;
+  cursor: pointer; //determina que forma a seta aparecerá
+}
+#novoJogador{
+    width: 250px;
+    padding: 0.3rem 0;
+    border-radius: 10px;
+    margin: 0 1rem; 
+}
+label{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+.vitoria{
+  background-color: green;
+  border-radius: 10px;
+  border: 5px solid green;
+  cursor: pointer;
+}
+.empate{
+  background-color: yellow;
+  
+  border: 5px solid yellow;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.derrota{
+  background-color: red;
+  border-radius: 10px;
+  border: 5px solid red;
+  margin: 5px 0;
+  cursor: pointer;
+}
