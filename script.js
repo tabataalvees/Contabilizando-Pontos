@@ -7,7 +7,7 @@ var  corinthians = {
    }
   
   var sp = {
-    nome: "São Paulo",
+    nome: "Palmeiras",
     vitorias: 0,
     empates: 0,
     derrotas: 0,
